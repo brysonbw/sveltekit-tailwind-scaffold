@@ -1,4 +1,5 @@
 <script lang="ts">
+  import githubLogo from '../assets/GitHub-Mark-Light-120px-plus.png'
     let navbarOpen = false
      
   </script>
@@ -49,9 +50,9 @@
         >
           <nav class="flex-col flex-grow ">
             <ul class={(navbarOpen ? "flex flex-col justify-end flex-wrap items-end" : "flex flex-grow justify-end flex-wrap items-center" )}>
-              <li>
+              <li class="transition ease-in-out hover:-translate-y-1 hover:scale-110 delay-150 duration-300">
                
-                  <a   href="/https://github.com/brysonbw/sveltekit-tailwind-scaffold" class="font-medium text-white hover:underline px-5 py-3 flex items-center transition duration-150 ease-in-out">Sveltekit Scaffold Repo</a>
+                  <a   href="https://github.com/brysonbw/sveltekit-tailwind-scaffold" class="font-medium text-white hover:underline px-5 py-3 flex items-center transition duration-150 ease-in-out">Sveltekit Scaffold &nbsp; <img class="mb-[.1em]" src={githubLogo} width={20} height={20} alt="github-logo" /> </a>
               
               </li>
               
