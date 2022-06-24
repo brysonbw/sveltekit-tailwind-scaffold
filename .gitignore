@@ -1,0 +1,12 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+
+// package-lock.json included only for scaffold purposes
+// you can delete from .gitignore list
+package-lock.json
