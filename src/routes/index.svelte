@@ -4,7 +4,7 @@
 
 
 <svelte:head>
-	<title>Sveletekit Scaffold</title>
+	<title>Sveltekit Scaffold</title>
 </svelte:head>
 
     <div>
