@@ -72,15 +72,18 @@ $ npm update
 
 ## Creating A Project With `npm init svelte@next` & `npx svelte-add@latest tailwindcss`
 
-You can use this scaffold or create a sveltekit project this way. It's what I normally do and I just added the files and directories I usually start off with using *npm init svelte@next* for this scaffold - either or is fine :)
+You can use this scaffold or create a sveltekit project this way. It's what I normally do and I just added the files and directories I usually start off with using **npm init svelte@next** & **npx svelte-add@latest tailwindcss** for this scaffold - either or is fine :)
 
 ```bash
 $ npm init svelte@next
 
+# add tailwind css
 $ npx svelte-add@latest tailwindcss
-# You can other integrations besides tailwind to svelte/sveltekit with [svelte-add](https://github.com/svelte-add/svelte-add)
 
 $ npm install # or pnpm install or yarn install
 ```
 
+You add other integrations to your svelte/sveltekit projects besides tailwind with `npx svelte-add`.
+
+> [svelte-add](https://github.com/svelte-add/svelte-add)
 
