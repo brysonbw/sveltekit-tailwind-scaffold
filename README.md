@@ -4,6 +4,7 @@ A minimal typescript Sveltekit tailwind scaffold starter
 
 ## Tree (sveltekit-scaffold/src)
 
+```
 src
  ┣ assets
  ┣ components
@@ -17,6 +18,7 @@ src
  ┣ app.css
  ┣ app.d.ts
  ┗ app.html
+```
 
 ## Usage
 
@@ -68,7 +70,7 @@ $ npm update <package_name>
 $ npm update
 ```
 
-## Creating A Project With 'npm init svelte@next' & 'npx svelte-add@latest tailwindcss'
+## Creating A Project With `npm init svelte@next` & `npx svelte-add@latest tailwindcss`
 
 You can use this scaffold or create a sveltekit project this way. It's what I normally do and I just added the files and directories I usually start off with using *npm init svelte@next* for this scaffold - either or is fine :)
 
@@ -76,7 +78,7 @@ You can use this scaffold or create a sveltekit project this way. It's what I no
 $ npm init svelte@next
 
 $ npx svelte-add@latest tailwindcss
-# You can other integrations besides tailwind to svelte/sveltekit with svelte-add: https://github.com/svelte-add/svelte-add
+# You can other integrations besides tailwind to svelte/sveltekit with [svelte-add](https://github.com/svelte-add/svelte-add)
 
 $ npm install # or pnpm install or yarn install
 ```
