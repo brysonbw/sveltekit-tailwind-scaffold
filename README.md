@@ -83,7 +83,7 @@ $ npx svelte-add@latest tailwindcss
 $ npm install # or pnpm install or yarn install
 ```
 
-You add other integrations to your svelte/sveltekit projects besides tailwind with `npx svelte-add`.
+You can add other integrations to your svelte/sveltekit projects besides tailwind with `npx svelte-add`.
 
 > [svelte-add](https://github.com/svelte-add/svelte-add)
 
